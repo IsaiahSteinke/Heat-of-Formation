@@ -1,0 +1,27 @@
+// Script for generating Magpie features 
+// Author: Isaiah Steinke
+// Last Modified: January 10, 2021
+
+// Load in a dataset of compounds
+data = new data.materials.CompositionDataset
+data import ./datasets/RawData.txt
+
+// Get only the ground-state instances of each compound
+// data duplicates RankingDuplicateResolver minmize PropertyRanker energy_pa SimpleEntryRanker
+
+// Define where to find elemental property data
+data attributes properties directory ./lookup-data/
+
+// Select which set of elemental properties to use for attributes
+data attributes properties add set general
+
+// Generate new attributes
+data attributes generate
+
+// Set property to be modeled
+data target HeatForm
+
+// Export csv file
+save data Features csv
+
+exit
