@@ -12,4 +12,4 @@ For elemental compounds, the heat of formation is zero according to thermodynami
 ## Citation
 If you find this work useful, please cite it as
 
-I. P. Steinke, "Predicting the Heat of Formation of One-, Two-, and Three-Component Materials Using Machine Learning," M.S. Capstone Project Final Report, Slippery Rock University, Slippery Rock, PA, 2021.
+I. P. Steinke, "Predicting the Heat of Formation of One-, Two-, and Three-Component Materials Using Machine Learning," M.S. Capstone Project - Final Report, Slippery Rock University, Slippery Rock, PA, 2021.
